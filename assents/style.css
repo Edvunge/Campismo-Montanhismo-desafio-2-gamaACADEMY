@@ -89,23 +89,47 @@ nav {
     
 }
 /*===================== MENU PRICINPAL =====================================*/
-#mula1 {
+#mula1{
     background-color: rgb(185, 132, 122);
     color: white;
     border: 23px solid black;
     margin: 20px;
     padding: 50px;
-  }
+    float: left;
+    min-height: 300px;
+    width: 450px;
+    /*
+        section {
+                float: left;
+                min-height: 300px;
+                width: 450px;
+                background-color: #999;
+        }
 
-#mula {
+    */
+}
+
+#mula2{
     background-color: rgb(185, 132, 122);
     color: white;
     border: 23px solid black;
     margin: 20px;
     padding: 20px;
-  }
+    float: left;
+    min-height: 300px;
+    width: 450px;
+}
 
-
+#mula3{
+    background-color: rgb(185, 132, 122);
+    color: white;
+    border: 23px solid black;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+    min-height: 300px;
+    width: 450px;
+}
 
 /* ================================ BARRA DE RODAPÉ   ========================*/
 .footer address{ font-weight: 300; overflow: hidden; } 
