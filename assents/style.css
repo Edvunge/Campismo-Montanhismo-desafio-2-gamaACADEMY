@@ -28,13 +28,20 @@ html, body{ height: 100%; background-image: url(../img/backgroundImg.jpg); }
 /*========================== BARRA DE CABELHO ================================= */
 
 #header {
+    height: 80px;
+    margin: 0 0 10px 0;
     font-family: var(--title-font);
     display: flex;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
+    background-color: rgb(92, 37, 37);
+   /* background-image: url(../img/99999999.png);*/   
+   /* background-repeat: no-repeat;*/
+
 }
+
 nav {
     height: 80px;
     width: 100%;
@@ -42,7 +49,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     /*background-color: rgb(198, 122, 206);*/
-    background-image: url(../img/99999999.png);
+    /*background-image: url(../img/99999999.png);*/
     /*height: 52px; */
     /*background-repeat: no-repeat;*/
     
