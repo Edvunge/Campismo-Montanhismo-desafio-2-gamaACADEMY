@@ -1,0 +1,117 @@
+*  {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{ height: 100%; background-image: url(../img/backgroundImg.jpg); }
+
+#navMain{
+    background-color: rgb(185, 162, 162);
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    top: 50px;
+    left: 50px;
+}
+
+#navMain22{
+    background-color: rgb(185, 162, 162);
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+/*========================== BARRA DE CABELHO ================================= */
+
+#header {
+    font-family: var(--title-font);
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*background-color: rgb(198, 122, 206);*/
+    background-image: url(../img/99999999.png);
+    /*height: 52px; */
+    /*background-repeat: no-repeat;*/
+    
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.menu ul a {
+    padding: 30px;
+    font-size: 100%;
+    color: orange;
+}
+
+.menu li a:hover {
+    color:red;
+    background-color: rgb(216, 248, 183);
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+#button1{
+    background-color: rgb(10, 170, 71);
+    
+}
+
+#button2 {
+    background-color: rgb(10, 170, 71);
+    
+}
+
+#button3{
+    background-color: rgb(10, 170, 71);
+    
+}
+/*===================== MENU PRICINPAL =====================================*/
+#mula1 {
+    background-color: rgb(185, 132, 122);
+    color: white;
+    border: 23px solid black;
+    margin: 20px;
+    padding: 50px;
+  }
+
+#mula {
+    background-color: rgb(185, 132, 122);
+    color: white;
+    border: 23px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+
+
+
+/* ================================ BARRA DE RODAPÉ   ========================*/
+.footer address{ font-weight: 300; overflow: hidden; } 
+.footer address{ font-weight: 400; color: rgb(121, 82, 179); }
+
+#footer {
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        background-color: rgb(185, 162, 162);
+        position: absolute;
+        bottom:0;
+        width:100%; 
+}
+
+
